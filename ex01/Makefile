@@ -6,13 +6,13 @@
 #    By: dufama <dufama@student.42lausanne.ch>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/24 16:58:40 by dufama            #+#    #+#              #
-#    Updated: 2026/02/24 17:59:19 by dufama           ###   ########.fr        #
+#    Updated: 2026/03/10 15:54:52 by dufama           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= phonebook
 CXX			= c++
-CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
+CXXFLAGS	= -Wall -Wextra  -std=c++98
 
 HEADER_DIR = headers
 SRCS_DIR	= srcs

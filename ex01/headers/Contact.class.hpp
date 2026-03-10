@@ -1,6 +1,7 @@
 #ifndef CONTACT_CLASS_HPP
 # define CONTACT_CLASS_HPP
 
+#include <string>
 #include <iostream>
 
 class Contact {
@@ -13,6 +14,9 @@ class Contact {
 	public:
 		Contact();
 		~Contact();
+
+		void addInfo(std::string firstName);
+		void getName(void);
 };
 
 #endif

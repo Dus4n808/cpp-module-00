@@ -3,8 +3,8 @@
 
 int main()
 {
-	PhoneBook phone1;
-	Contact	contact1;
-	std::cout << "test" << std::endl;
+	PhoneBook test;
+
+	test.createContact();
 	return (0);
 }

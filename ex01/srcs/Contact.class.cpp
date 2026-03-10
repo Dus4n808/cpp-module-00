@@ -7,3 +7,11 @@ Contact::Contact(void) {
 Contact::~Contact(void) {
 	std::cout << "Destructor called on Contact" << std::endl;
 }
+
+void Contact::addInfo(std::string firstName) {
+	_firstName = firstName;
+}
+
+void Contact::getName(void) {
+	std::cout << _firstName << std::endl;
+}
