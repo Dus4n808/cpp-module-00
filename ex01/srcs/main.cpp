@@ -3,8 +3,19 @@
 
 int main()
 {
-	PhoneBook test;
+	PhoneBook journal;
+	std::string input;
 
-	test.createContact();
-	return (0);
+	while (true)
+	{
+		std::cout << "Choose a command (ADD, SEARCH, EXIT)" << std::endl;
+		std::getline(std::cin, input);
+		if (input == "ADD")
+			journal.createContact();
+		else if (input == "SEARCH")
+			journal.searchContact();
+		else if (input == "EXIT")
+			break;
+	}
+
 }

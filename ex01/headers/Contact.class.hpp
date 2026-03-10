@@ -3,6 +3,7 @@
 
 #include <string>
 #include <iostream>
+#include <iomanip>
 
 class Contact {
 	private:
@@ -15,8 +16,17 @@ class Contact {
 		Contact();
 		~Contact();
 
-		void addInfo(std::string firstName);
-		void getName(void);
+		void setFirstName(std::string str);
+		void setLastName(std::string str);
+		void setNickName(std::string str);
+		void setPhoneNumber(std::string str);
+		void setSecret(std::string str);
+
+		std::string getFirstName(void);
+		std::string getLastName(void);
+		std::string getNickName(void);
+		std::string getPhoneNumber(void);
+		std::string getSecret(void);
 };
 
 #endif
