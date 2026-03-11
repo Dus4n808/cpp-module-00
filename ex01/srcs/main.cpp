@@ -17,5 +17,4 @@ int main()
 		else if (input == "EXIT")
 			break;
 	}
-
 }
